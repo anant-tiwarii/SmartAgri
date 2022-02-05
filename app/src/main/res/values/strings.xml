@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Agriculture System</string>
+    <string name="turnOff">Turn Off</string>
+    <string name="turnOn">Turn On</string>
+    <string name="DCMotor">Motor Management</string>
+    <string name="moistureTextview"> Current Moisture Level</string>
+    <string name="temperatureTextview"> Current Temperature</string>
+    <string name="humidityTextview"> Current Humidity Level</string>
+    <string name="motoron">Motor is ON</string>
+    <string name="motoroff">Motor is OFF</string>
+    <string name="motorerr">Error</string>
+    <string name="sugideal">Ideal Temp and Moisture. The field is in an ideal condition. Maintain this to expect good yield.</string>
+    <string name="suglow">Low moisture. Please water the fields.</string>
+    <string name="sugref">Please refresh the app.</string>
+    <string name="suggestions_based_on_analysis">Suggestions based on Analysis</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+</resources>

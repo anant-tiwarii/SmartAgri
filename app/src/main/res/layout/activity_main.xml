@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/suggestionUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/quicksandregular"
+        android:padding="5dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suggestionTV" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/suggestionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/quicksandbold"
+        android:text="@string/suggestions_based_on_analysis"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humidityUpdate" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/humidityUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/quicksandregular"
+        android:padding="5dp"
+        android:textColor="#93171e"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humidityTV" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/humidityTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/humidityTextview"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksandbold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperatureUpdate" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/temperatureTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/temperatureTextview"
+        android:textSize="24sp"
+        android:fontFamily="@font/quicksandbold"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moistureUpdate" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/moistureLevelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/moistureTextview"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksandbold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onButton" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/motorManagementTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/DCMotor"
+        android:textSize="24sp"
+        android:fontFamily="@font/quicksandbold"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/onButton"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/quicksandbold"
+        android:padding="10dp"
+        android:text="@string/turnOn"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motorManagementTV" />
+
+    <Button
+        android:id="@+id/offButton"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/quicksandbold"
+        android:padding="10dp"
+        android:text="@string/turnOff"
+        android:textColor="#616161"
+        app:layout_constraintStart_toEndOf="@+id/onButton"
+        app:layout_constraintTop_toBottomOf="@+id/motorManagementTV" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/moistureUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/quicksandregular"
+        android:padding="5dp"
+        android:textColor="#93171e"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moistureLevelTV" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/temperatureUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/quicksandregular"
+        android:padding="5dp"
+        android:textColor="#93171e"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperatureTV" />
+
+    <TextView
+        android:id="@+id/dcMotorStatus"
+        android:layout_width="98dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/textview"
+        app:layout_constraintStart_toEndOf="@+id/offButton"
+        app:layout_constraintTop_toBottomOf="@+id/motorManagementTV" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="463dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suggestionTV"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/grass"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

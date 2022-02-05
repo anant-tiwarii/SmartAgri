@@ -1,0 +1,2 @@
+rootProject.name = "Studio42 First App"
+include ':app'

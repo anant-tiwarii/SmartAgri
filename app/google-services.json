@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "661498249305",
+    "project_id": "studio42-first-app",
+    "storage_bucket": "studio42-first-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661498249305:android:cda791f92474ec7c8a3148",
+        "android_client_info": {
+          "package_name": "com.sidchiku9.studio42firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661498249305-hnr0673j0aqdqg3g4ch9lk3ma0j8eduk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL3_LflmotI_A2Spf7wNroMACpdGLGneI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661498249305-hnr0673j0aqdqg3g4ch9lk3ma0j8eduk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
